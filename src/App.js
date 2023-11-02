@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from "react";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Services from "./components/Services";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
+  // Check if the value exists in localStorage; use false if it doesn't.
+  const savedChangeMode =
+    localStorage.getItem("changeMode") === "true" || false;
+  const [changeMode, setMode] = useState(savedChangeMode);
+
+  const handleClick = () => {
+    setMode((prevMode) => !prevMode);
+  };
+
+  // Use a useEffect to update localStorage whenever changeMode changes
+  useEffect(() => {
+    localStorage.setItem("changeMode", changeMode);
+  }, [changeMode]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar mode={changeMode} togleBtn={handleClick} />
+      <Home mode={changeMode} />
+      <About />
+      <Experience mode={changeMode} />
+      <Services mode={changeMode} />
+      <Portfolio />
+      <Contact mode={changeMode} />
+      <Footer />
+    </>
   );
 }
 
