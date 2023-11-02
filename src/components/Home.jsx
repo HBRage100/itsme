@@ -65,7 +65,7 @@ const Home = (props) => {
             <span className="text-2xl">Web Developer</span>
           </m.div>
           <m.p
-            initial={{ opacity: 0, y: 100 }}
+            initial={{ opacity: 0, y: 80 }}
             whileInView={{
               opacity: 1,
               y: 0,
@@ -80,7 +80,7 @@ const Home = (props) => {
           </m.p>
           {/* button */}
           <m.div
-            initial={{ opacity: 0, y: 100 }}
+            initial={{ opacity: 0, y: 80 }}
             whileInView={{
               opacity: 1,
               y: 0,
@@ -111,7 +111,7 @@ const Home = (props) => {
           </m.div>
           {/* Follow button */}
           <m.div
-            initial={{ opacity: 0, y: 100 }}
+            initial={{ opacity: 0, y: 80 }}
             whileInView={{
               opacity: 1,
               y: 0,
