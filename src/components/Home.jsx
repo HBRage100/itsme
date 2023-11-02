@@ -200,7 +200,7 @@ const Home = (props) => {
               x: 0,
               transition: { duration: 0.5, delay: 0.2 },
             }}
-            className="bg-white shadow-2xl lg:mx-40 max-md:mx-20 md:mx-16 max-sm:mx-0 mt-16 w-20 h-20 absolute flex justify-center items-center rounded-2xl"
+            className="bg-white shadow-2xl lg:mx-40 max-md:mx-20 md:mx-16 max-sm:mx-2 mt-16 w-20 h-20 absolute flex justify-center items-center rounded-2xl"
           >
             <img src={tailWind} alt="VS Code" className="w-12 h-12" />
           </m.div>
@@ -211,9 +211,13 @@ const Home = (props) => {
               scale: 1,
               transition: { duration: 0.5, delay: 0.7 },
             }}
-            className="bg-white shadow-2xl mx-auto mt-4 w-40 h-40 flex justify-center items-center rounded-2xl"
+            className="bg-white shadow-2xl mx-auto mt-4 lg:w-40 lg:h-40 w-32 h-32 flex justify-center items-center rounded-2xl"
           >
-            <img src={vsCode} alt="VS Code" className="w-32 h-32" />
+            <img
+              src={vsCode}
+              alt="VS Code"
+              className="lg:w-32 lg:h-32 w-28 h-28"
+            />
           </m.div>
           <m.div
             initial={{ opacity: 0, y: 100 }}
