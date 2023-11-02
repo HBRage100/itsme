@@ -26,11 +26,11 @@ const Home = (props) => {
       >
         <div className="max-md:order-2 md:pt-32 pt-16">
           <m.span
-            initial={{ opacity: 0, y: 80 }}
+            initial={{ opacity: 0, y: 100 }}
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 0.5 },
+              transition: { duration: 0.5, delay: 0.2 },
             }}
             className={`inline-flex text-5xl font-medium gap-5 ${
               props.mode === false ? "text-steelGray-950" : "text-white"
@@ -40,11 +40,11 @@ const Home = (props) => {
             am
           </m.span>
           <m.h1
-            initial={{ opacity: 0, y: 80 }}
+            initial={{ opacity: 0, y: 100 }}
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 0.7 },
+              transition: { duration: 0.5, delay: 0.3 },
             }}
             className={`text-6xl font-semibold py-4 ${
               props.mode === false ? "text-steelGray-950" : "text-white"
@@ -53,11 +53,11 @@ const Home = (props) => {
             <TypingEffect />
           </m.h1>
           <m.div
-            initial={{ opacity: 0, y: 80 }}
+            initial={{ opacity: 0, y: 100 }}
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 0.7 },
+              transition: { duration: 0.5, delay: 0.4 },
             }}
             className="flex items-center text-studio-700"
           >
@@ -65,11 +65,11 @@ const Home = (props) => {
             <span className="text-2xl">Web Developer</span>
           </m.div>
           <m.p
-            initial={{ opacity: 0, y: 80 }}
+            initial={{ opacity: 0, y: 100 }}
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 0.9 },
+              transition: { duration: 0.5, delay: 0.5 },
             }}
             className={`lg:pr-60 py-4 text-lg ${
               props.mode === false ? "text-steelGray-950" : "text-white"
@@ -80,11 +80,11 @@ const Home = (props) => {
           </m.p>
           {/* button */}
           <m.div
-            initial={{ opacity: 0, y: 80 }}
+            initial={{ opacity: 0, y: 100 }}
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 1 },
+              transition: { duration: 0.5, delay: 0.6 },
             }}
             className="lg:inline-flex flex-wrap items-center justify-center flex gap-5 pt-4"
           >
@@ -111,11 +111,11 @@ const Home = (props) => {
           </m.div>
           {/* Follow button */}
           <m.div
-            initial={{ opacity: 0, y: 80 }}
+            initial={{ opacity: 0, y: 100 }}
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 1.1 },
+              transition: { duration: 0.5, delay: 0.7 },
             }}
             className="lg:pt-16 pt-8 flex items-center"
           >
@@ -209,7 +209,7 @@ const Home = (props) => {
             whileInView={{
               opacity: 1,
               scale: 1,
-              transition: { duration: 0.5, delay: 0.7 },
+              transition: { duration: 0.5, delay: 0.5 },
             }}
             className="bg-white shadow-2xl mx-auto mt-4 lg:w-40 lg:h-40 w-32 h-32 flex justify-center items-center rounded-2xl"
           >
@@ -224,7 +224,7 @@ const Home = (props) => {
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 0.7 },
+              transition: { duration: 0.5, delay: 0.6 },
             }}
             className="bg-white shadow-2xl lg:mx-48 max-md:mx-28 md:mx-24 max-sm:mx-6 mt-4 w-28 h-28 flex justify-center items-center rounded-2xl"
           >
@@ -246,7 +246,7 @@ const Home = (props) => {
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 0.7 },
+              transition: { duration: 0.5, delay: 0.6 },
             }}
             className="bg-white shadow-2xl ml-[50%] -mt-24 w-24 h-24 absolute flex justify-center items-center rounded-2xl"
           >

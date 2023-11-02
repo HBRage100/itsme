@@ -51,7 +51,7 @@ const Portfolio = () => {
           whileInView={{
             opacity: 1,
             y: 0,
-            transition: { duration: 0.5, delay: 0.5 },
+            transition: { duration: 0.5, delay: 0.2 },
           }}
           className={`lg:text-5xl text-4xl font-semibold pb-20 text-steelGray-950`}
         >
@@ -63,7 +63,7 @@ const Portfolio = () => {
           whileInView={{
             opacity: 1,
             y: 0,
-            transition: { duration: 0.5, delay: 0.7 },
+            transition: { duration: 0.5, delay: 0.4 },
           }}
         >
           <Slider {...settings}>

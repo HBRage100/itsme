@@ -25,7 +25,7 @@ const Contact = (props) => {
           whileInView={{
             opacity: 1,
             y: 0,
-            transition: { duration: 0.5, delay: 0.5 },
+            transition: { duration: 0.5, delay: 0.2 },
           }}
           className={`lg:text-5xl text-4xl font-semibold pb-10 ${
             props.mode === false ? "text-steelGray-950" : "text-white"
@@ -40,7 +40,7 @@ const Contact = (props) => {
               whileInView={{
                 opacity: 1,
                 y: 0,
-                transition: { duration: 0.5, delay: 0.6 },
+                transition: { duration: 0.5, delay: 0.3 },
               }}
               className={`lg:text-4xl text-3xl font-semibold pb-4 ${
                 props.mode === false ? "text-steelGray-950" : "text-white"
@@ -53,7 +53,7 @@ const Contact = (props) => {
               whileInView={{
                 opacity: 1,
                 y: 0,
-                transition: { duration: 0.5, delay: 0.8 },
+                transition: { duration: 0.5, delay: 0.5 },
               }}
               className={`lg:pr-60 text-lg pb-4 ${
                 props.mode === false ? "text-steelGray-950" : "text-white"
@@ -69,7 +69,7 @@ const Contact = (props) => {
               whileInView={{
                 opacity: 1,
                 y: 0,
-                transition: { duration: 0.5, delay: 1 },
+                transition: { duration: 0.5, delay: 0.6 },
               }}
             >
               <a href="mailto:hamzach153@gmail.com">
@@ -83,7 +83,7 @@ const Contact = (props) => {
               whileInView={{
                 opacity: 1,
                 y: 0,
-                transition: { duration: 0.5, delay: 0.6 },
+                transition: { duration: 0.5, delay: 0.3 },
               }}
               className={`lg:text-4xl text-3xl font-semibold pb-4 ${
                 props.mode === false ? "text-steelGray-950" : "text-white"
@@ -96,7 +96,7 @@ const Contact = (props) => {
               whileInView={{
                 opacity: 1,
                 y: 0,
-                transition: { duration: 0.5, delay: 0.8 },
+                transition: { duration: 0.5, delay: 0.5 },
               }}
               className={`lg:pr-60 text-lg inline-flex items-center gap-10 ${
                 props.mode === false ? "text-steelGray-950" : "text-white"
@@ -118,7 +118,7 @@ const Contact = (props) => {
               whileInView={{
                 opacity: 1,
                 y: 0,
-                transition: { duration: 0.5, delay: 1 },
+                transition: { duration: 0.5, delay: 0.6 },
               }}
               className="lg:pt-10 pt-8 flex items-center"
             >

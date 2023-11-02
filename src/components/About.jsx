@@ -15,7 +15,7 @@ const About = () => {
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 0.3 },
+              transition: { duration: 0.5, delay: 0.2 },
             }}
             className="bg-goldenTainoi-300 flex-wrap flex justify-center items-start w-96 max-sm:w-80"
           >
@@ -24,7 +24,7 @@ const About = () => {
               whileInView={{
                 opacity: 1,
                 y: 0,
-                transition: { duration: 0.5, delay: 0.5 },
+                transition: { duration: 0.5, delay: 0.3 },
               }}
               className="text-studio-700 text-[380px] max-sm:text-[300px] font-extrabold font-oswald -mt-44 max-sm:-mt-40"
             >
@@ -35,7 +35,7 @@ const About = () => {
               whileInView={{
                 opacity: 1,
                 y: 0,
-                transition: { duration: 0.5, delay: 0.5 },
+                transition: { duration: 0.5, delay: 0.4 },
               }}
               className="-mt-20 max-sm:-mt-16 text-xl"
             >
@@ -60,7 +60,7 @@ const About = () => {
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 0.5 },
+              transition: { duration: 0.5, delay: 0.2 },
             }}
             className={`lg:text-5xl text-4xl font-semibold py-4 text-white`}
           >
@@ -71,7 +71,7 @@ const About = () => {
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 0.5 },
+              transition: { duration: 0.5, delay: 0.3 },
             }}
             className={`lg:pr-32 py-4 text-lg text-white`}
           >
@@ -87,7 +87,7 @@ const About = () => {
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 0.5 },
+              transition: { duration: 0.5, delay: 0.4 },
             }}
             className="justify-center items-center inline-flex mt-8 "
           >

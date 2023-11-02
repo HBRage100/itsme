@@ -22,7 +22,7 @@ const Experience = (props) => {
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 0.3 },
+              transition: { duration: 0.5, delay: 0.2 },
             }}
             className={`lg:text-5xl text-4xl font-semibold pb-10 ${
               props.mode === false ? "text-steelGray-950" : "text-white"
@@ -35,7 +35,7 @@ const Experience = (props) => {
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.7, delay: 0.5 },
+              transition: { duration: 0.5, delay: 0.3 },
             }}
           >
             <m.li
@@ -43,7 +43,7 @@ const Experience = (props) => {
               whileInView={{
                 opacity: 1,
                 y: 0,
-                transition: { duration: 0.7, delay: 0.7 },
+                transition: { duration: 0.5, delay: 0.5 },
               }}
               className="relative flex gap-6 pb-5 items-baseline"
             >
@@ -77,7 +77,7 @@ const Experience = (props) => {
               whileInView={{
                 opacity: 1,
                 y: 0,
-                transition: { duration: 0.7, delay: 0.9 },
+                transition: { duration: 0.5, delay: 0.5 },
               }}
               className="relative flex gap-6 pb-5 items-baseline"
             >
@@ -106,7 +106,7 @@ const Experience = (props) => {
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.5, delay: 0.3 },
+              transition: { duration: 0.5, delay: 0.2 },
             }}
             className={`lg:text-5xl text-4xl font-semibold pb-10 lg:pt-0 pt-16 ${
               props.mode === false ? "text-steelGray-950" : "text-white"
@@ -119,7 +119,7 @@ const Experience = (props) => {
             whileInView={{
               opacity: 1,
               y: 0,
-              transition: { duration: 0.7, delay: 0.5 },
+              transition: { duration: 0.5, delay: 0.3 },
             }}
           >
             <m.li
@@ -127,7 +127,7 @@ const Experience = (props) => {
               whileInView={{
                 opacity: 1,
                 y: 0,
-                transition: { duration: 0.7, delay: 0.9 },
+                transition: { duration: 0.5, delay: 0.5 },
               }}
               className="relative flex gap-6 pb-5 items-baseline"
             >
