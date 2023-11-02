@@ -4,15 +4,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { motion as m } from "framer-motion";
 import Card from "./Card";
-import AmericaVoters from "../assets/America-s-Christian-Voters.png";
-import BlackMoon from "../assets/Black-Moon-Tattoo-Company.png";
-import BurgerProspect from "../assets/BurgerProspect.png";
-import BuyEmailLists from "../assets/Buy-Email-Lists.png";
-import CHLNet from "../assets/CHLNet.png";
-import InciteStrategies from "../assets/Incite-Strategies.png";
-import Instabarcode from "../assets/Instabarcode.png";
-import MassTax from "../assets/MassTax.png";
-import Smartfreezecontainers from "../assets/Smartfreezecontainers.png";
+import AmericaVoters from "../assets/America-s-Christian-Voters.webp";
+import BlackMoon from "../assets/Black-Moon-Tattoo-Company.webp";
+import BurgerProspect from "../assets/BurgerProspect.webp";
+import BuyEmailLists from "../assets/Buy-Email-Lists.webp";
+import CHLNet from "../assets/CHLNet.webp";
+import InciteStrategies from "../assets/Incite-Strategies.webp";
+import Instabarcode from "../assets/Instabarcode.webp";
+import MassTax from "../assets/MassTax.webp";
+import Smartfreezecontainers from "../assets/Smartfreezecontainers.webp";
 
 const Portfolio = () => {
   const settings = {
