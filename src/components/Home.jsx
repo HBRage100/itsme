@@ -200,7 +200,7 @@ const Home = (props) => {
               x: 0,
               transition: { duration: 0.5, delay: 0.2 },
             }}
-            className="bg-white shadow-2xl lg:mx-40 max-md:mx-20 md:mx-16 max-sm:mx-2 mt-16 w-20 h-20 absolute flex justify-center items-center rounded-2xl"
+            className="bg-white shadow-2xl lg:mx-40 max-md:mx-20 md:mx-16 max-sm:mx-0 mt-16 w-20 h-20 absolute flex justify-center items-center rounded-2xl"
           >
             <img src={tailWind} alt="VS Code" className="w-12 h-12" />
           </m.div>
