@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const TypingEffect = () => {
   const [text, setText] = useState("");
   const initialText = "M";
-  const dataText = "M Hamza Iftikhar";
+  const dataText = "M Hamza";
 
   useEffect(() => {
     const delay = 50; // Adjust the delay between characters (in milliseconds)
