@@ -26,7 +26,7 @@ const Home = (props) => {
       >
         <div className="max-md:order-2 md:pt-32 pt-16">
           <m.span
-            initial={{ opacity: 0, y: 100 }}
+            initial={{ opacity: 0, y: 80 }}
             whileInView={{
               opacity: 1,
               y: 0,
@@ -40,7 +40,7 @@ const Home = (props) => {
             am
           </m.span>
           <m.h1
-            initial={{ opacity: 0, y: 100 }}
+            initial={{ opacity: 0, y: 80 }}
             whileInView={{
               opacity: 1,
               y: 0,
@@ -53,7 +53,7 @@ const Home = (props) => {
             <TypingEffect />
           </m.h1>
           <m.div
-            initial={{ opacity: 0, y: 100 }}
+            initial={{ opacity: 0, y: 80 }}
             whileInView={{
               opacity: 1,
               y: 0,
