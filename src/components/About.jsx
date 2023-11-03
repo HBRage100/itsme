@@ -75,12 +75,13 @@ const About = () => {
             }}
             className={`lg:pr-32 py-4 text-lg text-white`}
           >
-            I am a Web Developer with a Excellent track record in designing,
-            developing websites, and managing databases. 2+ years of experience
-            in testing, designing, and implementing web-based projects. The
-            ability to complete tasks accurately in a fast-paced environment
-            with in deadlines. I am really open- minded and outgoing. To me,
-            effective cooperation requires effective communication.
+            I am a Web Developer with an Excellent track record in designing,
+            developing websites, and managing databases. 3+ years of experience
+            in testing, designing, and implementing web-based projects. Also,
+            I'm working on the react app from past 6 months. The ability to
+            complete tasks accurately in a fast-paced environment within
+            deadlines. I am really open-minded and outgoing. To me, effective
+            cooperation requires effective communication.
           </m.p>
           <m.div
             initial={{ opacity: 0, y: 100 }}
