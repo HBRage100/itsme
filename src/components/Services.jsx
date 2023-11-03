@@ -90,7 +90,7 @@ const Services = (props) => {
             y: 0,
             transition: { duration: 0.5, delay: 0.6 },
           }}
-          className={`border-y border-gray-500 py-5 lg:flex flex-wrap items-center justify-center ${
+          className={`border-t border-gray-500 py-5 lg:flex flex-wrap items-center justify-center ${
             props.mode === false ? "text-steelGray-950" : "text-white"
           } hover:bg-studio-700 hover:text-white`}
         >
