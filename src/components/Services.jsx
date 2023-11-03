@@ -108,7 +108,7 @@ const Services = (props) => {
           whileInView={{
             opacity: 1,
             y: 0,
-            transition: { duration: 0.5, delay: 0.6 },
+            transition: { duration: 0.5, delay: 0.7 },
           }}
           className={`border-y border-gray-500 py-5 lg:flex flex-wrap items-center justify-center ${
             props.mode === false ? "text-steelGray-950" : "text-white"
