@@ -103,25 +103,33 @@ const Services = (props) => {
             projects with my expert QA solutions.
           </p>
         </m.div>
-        <m.div
-          initial={{ opacity: 0, y: 100 }}
-          whileInView={{
-            opacity: 1,
-            y: 0,
-            transition: { duration: 0.5, delay: 0.7 },
-          }}
-          className={`border-y border-gray-500 py-5 lg:flex flex-wrap items-center justify-center ${
-            props.mode === false ? "text-steelGray-950" : "text-white"
-          } hover:bg-studio-700 hover:text-white`}
+        <a
+          href="https://dummyapijson.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <span className="lg:w-1/12 w-1/3 text-xl inline-flex">05</span>
-          <h3 className="lg:w-1/5 w-8/12 text-2xl inline-flex">Backend API</h3>
-          <p className="lg:w-3/5 w-full text-lg lg:pt-0 pt-4">
-            I also Backend API service that seamlessly connects and powers your
-            applications, delivering data and functionality with efficiency and
-            reliability, ensuring a smooth user experience.
-          </p>
-        </m.div>
+          <m.div
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{
+              opacity: 1,
+              y: 0,
+              transition: { duration: 0.5, delay: 0.7 },
+            }}
+            className={`border-y border-gray-500 py-5 lg:flex flex-wrap items-center justify-center ${
+              props.mode === false ? "text-steelGray-950" : "text-white"
+            } hover:bg-studio-700 hover:text-white`}
+          >
+            <span className="lg:w-1/12 w-1/3 text-xl inline-flex">05</span>
+            <h3 className="lg:w-1/5 w-8/12 text-2xl inline-flex">
+              Backend API
+            </h3>
+            <p className="lg:w-3/5 w-full text-lg lg:pt-0 pt-4">
+              I also Backend API service that seamlessly connects and powers
+              your applications, delivering data and functionality with
+              efficiency and reliability, ensuring a smooth user experience.
+            </p>
+          </m.div>
+        </a>
       </section>
     </>
   );
