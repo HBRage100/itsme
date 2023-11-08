@@ -95,7 +95,7 @@ const About = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1wSsb-SmOIZqC5llThzVbcKZFtWN63MP8/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QDofxkvbmx2lhOqQUZ4cI8HErbyblwHZ/view?usp=sharing"
             >
               <WhiteBtn btntxt="My Resume" />
             </a>
