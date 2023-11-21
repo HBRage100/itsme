@@ -180,7 +180,7 @@ const Home = (props) => {
             }}
             className="bg-white shadow-2xl lg:mt-16 lg:mx-56 max-md:mx-40 md:mx-32 max-sm:mx-16 w-24 h-24 flex justify-center items-center rounded-2xl"
           >
-            <img src={figma} alt="VS Code" className="w-16 h-16" />
+            <img src={figma} alt="Figma" className="w-16 h-16" />
           </m.div>
           <m.div
             initial={{ opacity: 0, y: -100 }}
@@ -191,7 +191,7 @@ const Home = (props) => {
             }}
             className="bg-white shadow-2xl lg:ml-[70%] lg:-mt-10 ml-[70%] -mt-20 w-20 h-20 absolute flex justify-center items-center rounded-2xl"
           >
-            <img src={fireFox} alt="VS Code" className="w-12 h-12" />
+            <img src={fireFox} alt="Firefox" className="w-12 h-12" />
           </m.div>
           <m.div
             initial={{ opacity: 0, x: -100 }}
@@ -202,7 +202,7 @@ const Home = (props) => {
             }}
             className="bg-white shadow-2xl lg:mx-40 max-md:mx-20 md:mx-16 max-sm:mx-2 mt-16 w-20 h-20 absolute flex justify-center items-center rounded-2xl"
           >
-            <img src={tailWind} alt="VS Code" className="w-12 h-12" />
+            <img src={tailWind} alt="Tailwind Css" className="w-12 h-12" />
           </m.div>
           <m.div
             initial={{ opacity: 0, scale: 0 }}
@@ -228,7 +228,7 @@ const Home = (props) => {
             }}
             className="bg-white shadow-2xl lg:mx-48 max-md:mx-28 md:mx-24 max-sm:mx-6 mt-4 w-28 h-28 flex justify-center items-center rounded-2xl"
           >
-            <img src={reactIcon} alt="VS Code" className="w-22 h-22" />
+            <img src={reactIcon} alt="React" className="w-22 h-22" />
           </m.div>
           <m.div
             initial={{ opacity: 0, x: -100 }}
@@ -239,7 +239,7 @@ const Home = (props) => {
             }}
             className="bg-white shadow-2xl lg:ml-[64%] max-md:ml-[75%] md:ml-[65%] -mt-60 w-14 h-14 absolute flex justify-center items-center rounded-2xl"
           >
-            <img src={gitHub} alt="VS Code" className="w-10 h-10" />
+            <img src={gitHub} alt="GitHub" className="w-10 h-10" />
           </m.div>
           <m.div
             initial={{ opacity: 0, y: 100 }}
@@ -250,7 +250,7 @@ const Home = (props) => {
             }}
             className="bg-white shadow-2xl ml-[50%] -mt-24 w-24 h-24 absolute flex justify-center items-center rounded-2xl"
           >
-            <img src={photoShop} alt="VS Code" className="w-16 h-16" />
+            <img src={photoShop} alt="Photoshop" className="w-16 h-16" />
           </m.div>
         </div>
       </section>
