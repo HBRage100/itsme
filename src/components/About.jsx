@@ -75,13 +75,13 @@ const About = () => {
             }}
             className={`lg:pr-32 py-4 text-lg text-white`}
           >
-            I am a Web Developer with an Excellent track record in designing,
-            developing websites, and managing databases. 3+ years of experience
-            in testing, designing, and implementing web-based projects. Also,
-            I'm working on the react app from past 6 months. The ability to
-            complete tasks accurately in a fast-paced environment within
-            deadlines. I am really open-minded and outgoing. To me, effective
-            cooperation requires effective communication.
+            I’m a Web Developer and SEO Expert with an Excellent track record in
+            designing developing and managing databases. 3+ years of experience
+            in testing, designing, developing, and implementing web-based
+            projects. Also, I have been working on the React app for the past 6
+            months. The ability to complete tasks accurately in a fast-paced
+            environment within deadlines. I am really open-minded and outgoing.
+            To me, effective cooperation requires effective communication.
           </m.p>
           <m.div
             initial={{ opacity: 0, y: 100 }}
@@ -95,7 +95,7 @@ const About = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1QDofxkvbmx2lhOqQUZ4cI8HErbyblwHZ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1NgLQDqfuReYFNvvUpW7J2VzHmhNklEM4/view?usp=sharing"
             >
               <WhiteBtn btntxt="My Resume" />
             </a>

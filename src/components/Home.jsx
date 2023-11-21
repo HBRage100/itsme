@@ -75,8 +75,8 @@ const Home = (props) => {
               props.mode === false ? "text-steelGray-950" : "text-white"
             }`}
           >
-            I am a Web Developer with a Excellent track record in designing,
-            developing websites, and managing databases.
+            I’m a Web Developer and SEO Expert with an Excellent track record in
+            designing developing and managing databases.
           </m.p>
           {/* button */}
           <m.div
