@@ -12,9 +12,9 @@ const Experience = (props) => {
         }`}
       >
         {/* blur bg Start here */}
-        <div className="absolute lg:top-40 top-[25%] lg:left-60 left-20 bg-purple-300 rounded-full lg:w-72 lg:h-72 w-52 h-52 mix-blend-multiply filter blur-xl animate-blub"></div>
-        <div className="absolute lg:top-40 top-[35%] lg:left-[25%] left-[35%] bg-yellow-300 rounded-full lg:w-72 lg:h-72 w-52 h-52 mix-blend-multiply filter blur-xl animate-blub animationDelay-2000"></div>
-        <div className="absolute lg:top-80 top-[40%] left-[17%] bg-pink-300 rounded-full lg:w-72 lg:h-72 w-52 h-52 mix-blend-multiply filter blur-xl animate-blub animationDelay-4000"></div>
+        <div className="absolute lg:top-40 top-[25%] lg:left-60 left-16 bg-purple-300 rounded-full lg:w-72 lg:h-72 w-44 h-44 mix-blend-multiply filter blur-xl animate-blub"></div>
+        <div className="absolute lg:top-40 top-[35%] lg:left-[25%] left-[30%] bg-yellow-300 rounded-full lg:w-72 lg:h-72 w-44 h-44 mix-blend-multiply filter blur-xl animate-blub animationDelay-2000"></div>
+        <div className="absolute lg:top-80 top-[40%] left-[15%] bg-pink-300 rounded-full lg:w-72 lg:h-72 w-44 h-44 mix-blend-multiply filter blur-xl animate-blub animationDelay-4000"></div>
         {/* blur bg End here */}
         <div className=" lg:w-[90%] w-full">
           <m.h2
