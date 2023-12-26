@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { IoFingerPrintOutline } from "react-icons/io5";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <>
       <section className="w-full py-6 lg:px-40 md:px-12 px-4 bg-studio-700">
@@ -21,7 +22,7 @@ const Footer = () => {
           />
         </Link>
         <p className={`text-center pt-4 text-lg text-white`}>
-          © 2023 by M Hamza. All Rights Reserved
+          © {currentYear} by M Hamza. All Rights Reserved
         </p>
       </section>
     </>
