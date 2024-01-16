@@ -80,8 +80,8 @@ const About = () => {
             in testing, designing, developing, and implementing web-based
             projects. Also, I have been working on the React app for the past 6
             months. The ability to complete tasks accurately in a fast-paced
-            environment within deadlines. I am really open-minded and outgoing.
-            To me, effective cooperation requires effective communication.
+            environment within deadlines. I am open-minded and outgoing. To me,
+            effective cooperation requires effective communication.
           </m.p>
           <m.div
             initial={{ opacity: 0, y: 100 }}
