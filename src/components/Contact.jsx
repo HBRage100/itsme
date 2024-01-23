@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion as m } from "framer-motion";
 import WhiteBtn from "./button/WhiteBtn";
 import { FaBehance, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import PurpleBtn from "./button/PurpleBtn";
 
 const Contact = (props) => {
   const [copySuccess, setCopySuccess] = useState(null);
@@ -72,8 +73,11 @@ const Contact = (props) => {
                 transition: { duration: 0.5, delay: 0.6 },
               }}
             >
-              <a href="mailto:hamzach153@gmail.com">
+              <a href="mailto:hamzach153@gmail.com" className="m-1">
                 <WhiteBtn btntxt="Contact me" />
+              </a>
+              <a href="https://wa.me/03160646161" className="m-1">
+                <PurpleBtn btntxt="WhatsApp" />
               </a>
             </m.div>
           </div>
