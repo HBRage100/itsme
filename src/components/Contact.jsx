@@ -76,9 +76,9 @@ const Contact = (props) => {
               <a href="mailto:hamzach153@gmail.com" className="m-1">
                 <WhiteBtn btntxt="Contact me" />
               </a>
-              <a href="https://wa.me/03160646161" className="m-1">
+              {/* <a href="https://wa.me/03160646161" className="m-1">
                 <PurpleBtn btntxt="WhatsApp" />
-              </a>
+              </a> */}
             </m.div>
           </div>
           <div className="lg:pt-0 pt-16 ">
